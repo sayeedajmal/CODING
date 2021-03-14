@@ -1,0 +1,43 @@
+mixin card(classname, href, iconname, title, description)
+	.card-container 
+		.card(class=classname)
+			a(href=href)
+				.card--display
+					i.material-icons=iconname
+					h2=title
+				.card--hover
+					h2=title
+					p=description
+					p.link Click to see project
+			.card--border
+			
++card(
+'',
+'hottub', 
+'hot_tub', 
+'Hot Tub Time Machine', 
+'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie pellentesque mi nec lacinia. Cras volutpat arcu sit amet elit sodales, nec volutpat velit bibendum.')
++card(
+'',
+'worldweb', 
+'public', 
+'World Wide Web', 
+'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie pellentesque mi nec lacinia. Cras volutpat arcu sit amet elit sodales, nec volutpat velit bibendum.')
++card(
+'',
+'trainthings', 
+'train', 
+'Why I Hate Trains', 
+'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie pellentesque mi nec lacinia. Cras volutpat arcu sit amet elit sodales, nec volutpat velit bibendum.')
++card(
+'card--dark',
+'androidupdate', 
+'android', 
+'Another Android Update', 
+'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie pellentesque mi nec lacinia. Cras volutpat arcu sit amet elit sodales, nec volutpat velit bibendum.')
++card(
+'card--dark',
+'phonesoff', 
+'ring_volume', 
+'Why Phones Are So Loud?', 
+'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie pellentesque mi nec lacinia. Cras volutpat arcu sit amet elit sodales, nec volutpat velit bibendum.')

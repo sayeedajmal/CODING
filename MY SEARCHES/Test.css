@@ -1,0 +1,16 @@
+:root{
+    background-color:rgb(121, 184, 163);
+    font-size: 19px;
+}
+#h1{
+    padding-left: 500px;
+    color: royalblue;
+    border: 2px dotted blue;
+}
+#input{
+    text-align: center;
+    position: static;
+}
+#text{
+    border-radius: 30px;
+}
